@@ -40,7 +40,7 @@ public class Calculations {
 				result=multiply(stackNumbers.pop(), stackNumbers.pop());
 				break;
 			}
-			System.out.println(result);										//Prints the result and pushes the result into stack
+			//System.out.println("Result = "+ result);										//Prints the result and pushes the result into stack
 			stackNumbers.push(result);
 		}
 		

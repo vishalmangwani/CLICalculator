@@ -39,6 +39,7 @@ public class ReadAndInsertIntoStack {
 				String[] allInputChars=input.split("\\s+"); // Split each line into tokens
 				for(String sq :allInputChars)
 					insertIntoStack(sq);					//Inserting each token into the stack
+				System.out.println(stackNumbers.peek());
 			}
 			
 		}
@@ -60,7 +61,7 @@ public class ReadAndInsertIntoStack {
 			try
 			{
 				stackNumbers.push(Float.parseFloat(sq));	//if not symbol then parse the input into Float and push it into Numbers stack 
-				System.out.println(stackNumbers.peek());	//display entered number to the user
+				//System.out.println(stackNumbers.peek());	//display entered number to the user
 			}catch(Exception e){
 				System.out.println("Invalid Entry. Please Enter only Numbers and Symbols("+validSymbols.toString()+")");
 				}
