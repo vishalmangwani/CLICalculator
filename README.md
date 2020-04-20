@@ -16,3 +16,7 @@ I had to initially decide what had to be done and what functionailities had to g
 As the code i have uploaded is already compiled, One can navigate to bin directory of my project and enter the following command to run the project
 java CLICalculator
 or if needed to compile one can also go to src directory and compile the code by using javac *.java and then rerun the code as mentioned above.
+
+
+
+Sample Change
